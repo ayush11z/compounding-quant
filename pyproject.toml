@@ -1,0 +1,13 @@
+[project]
+name = "quantization-agent-bench"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "docker>=7.2.0",
+    "duckdb>=1.5.5",
+    "langchain-openai>=1.6.0",
+    "langgraph>=1.2.11",
+    "openai>=3.8.0",
+    "swebench>=5.0.2",
+]
